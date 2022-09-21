@@ -59,7 +59,7 @@ def main():
         "batch_size": 512,
         "num_workers": 10,
         "accelerator": "gpu",
-        "devices": [0],
+        "devices": 'auto',
         "target": "energy",
         "n_epochs": 5,
         "patience": 5,
